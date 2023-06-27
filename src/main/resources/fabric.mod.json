@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "little-gun",
+  "version": "${version}",
+  "name": "little-gun-1.20.1",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Ranec/little-gun-1.20.1"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/little-gun/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ranecc.littlegun.littlegun.client.Little_gun_1_20_1Client"
+    ],
+    "main": [
+      "ranecc.littlegun.littlegun.Little_gun_1_20_1"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
